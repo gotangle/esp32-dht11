@@ -70,12 +70,13 @@ git clone --recursive https://github.com/oopsmonk/iota_esp32_cashier.git
 git clone https://github.com/gotangle/esp32-dht11.git
 cd esp-dht11
 ```
-
-### Step 2: Build & Run
+```
+### Step 4: Build & Run
 
 ```shell
 idf.py build
-idf.py flash monitor
+idf.py -p /dev/ttyUSB0 flash && idf.py -p /dev/ttyUSB0 monitor
+```
 
 Output: 
-![](https://github.com/gotangle/esp32-dht11/blob/master/images/result.PNG?raw=true)
+![](https://github.com/gotangle/esp32-dht11/blob/master/images/result.PNG)
