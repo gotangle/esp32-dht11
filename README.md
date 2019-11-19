@@ -67,7 +67,7 @@ git clone https://github.com/gotangle/esp32-dht11.git
 cd esp32-dht11
 ```
 
-### Step 4: Build & Run
+### Step 2: Build & Run
 
 ```shell
 idf.py build
