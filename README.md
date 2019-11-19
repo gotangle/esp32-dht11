@@ -78,4 +78,4 @@ idf.py build
 idf.py flash monitor
 
 Output: 
-![](images/result.png) 
+![](https://github.com/gotangle/esp32-dht11/blob/master/images/result.PNG?raw=true)
