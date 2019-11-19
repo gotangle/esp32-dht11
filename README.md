@@ -11,20 +11,20 @@ Esp-idf driver for DHT11 temperature and humidity sensor
 
 Please follow documentations to setup your toolchain and development framework.
 
-Linux and MacOS:  
-* [xtensa-esp32 toolchain(Linux)](https://docs.espressif.com/projects/esp-idf/en/v3.2.2/get-started-cmake/linux-setup.html) 
-* [xtensa-esp32 toolchain(MacOS)](https://docs.espressif.com/projects/esp-idf/en/v3.2.2/get-started-cmake/macos-setup.html) 
+Linux:  
+* [xtensa-esp32 toolchain](https://docs.espressif.com/projects/esp-idf/en/v3.2.2/get-started-cmake/linux-setup.html) 
 * [ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/v3.2.2/get-started-cmake/index.html#get-esp-idf) 
 
 Windows:
 * [xtensa-esp32 toolchain](https://docs.espressif.com/projects/esp-idf/en/v3.2.2/get-started-cmake/windows-setup.html#standard-setup-of-toolchain-for-windows-cmake) 
 * [ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/v3.2.2/get-started-cmake/index.html#windows-command-prompt) 
 
-**Notice: We use the ESP-IDF v3.2.2**
+**Notice: We use the ESP-IDF v3.2.2, make sure you clone the right branch of ESP-IDF**
 
 ```
 git clone -b v3.2.2 --recursive https://github.com/espressif/esp-idf.git
 ```
+
 
 Now, you can test your develop environment via the [hello_world](https://github.com/espressif/esp-idf/tree/release/v3.2/examples/get-started/hello_world) project.  
 
@@ -56,7 +56,7 @@ Restarting in 10 seconds...
 Restarting in 9 seconds...
 ```
 
-You can press `Ctrl` + `]` to exit the monitor and ready for the next setup.  
+You can press `Ctrl` + `]` to exit the monitor and ready for the next setup.    
 
 ## Building and flashing to ESP32
 
