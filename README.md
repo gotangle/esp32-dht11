@@ -63,14 +63,10 @@ You can press `Ctrl` + `]` to exit the monitor and ready for the next setup.
 ### Step 1: cloning repository  
 
 ```shell
-git clone --recursive https://github.com/oopsmonk/iota_esp32_cashier.git
+git clone https://github.com/gotangle/esp32-dht11.git
+cd esp32-dht11
 ```
 
-```shell
-git clone https://github.com/gotangle/esp32-dht11.git
-cd esp-dht11
-```
-```
 ### Step 4: Build & Run
 
 ```shell
